@@ -12,6 +12,11 @@
 
 body {
     font-family: "Outfit", sans-serif;
+    background-color: var(--Blue-950);
+}
+
+article {
+    background-color: var(--Blue-900);
 }
 
 p {
