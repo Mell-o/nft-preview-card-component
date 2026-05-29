@@ -10,6 +10,10 @@
     --White: hsl(0, 0%, 100%)
 }
 
+body {
+    font-family: "Outfit", sans-serif;
+}
+
 p {
     font-size: 1.125rem; /* 18px */
 }
