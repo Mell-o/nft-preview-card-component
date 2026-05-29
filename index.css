@@ -24,14 +24,12 @@ article {
     display: flex;
     flex-direction: column;
     width: 375px;
-}
-
-figure {
-
+    border-radius: 0.875em; /* 14px */
 }
 
 figure img {
     width: 100%;
+    border-radius: 0.625em; /* 10px */
 }
 
 h1 {
@@ -53,4 +51,9 @@ p {
 
 .nft-preview-card-footer span {
     color: var(--White);
+}
+
+.nft-preview-card-footer img {
+    border: 3px solid var(--White);
+    border-radius: 50%;
 }
