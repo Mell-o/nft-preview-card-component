@@ -15,10 +15,27 @@ body {
     background-color: var(--Blue-950);
 }
 
+h1 {
+    color: var(--White);
+}
+
 article {
     background-color: var(--Blue-900);
 }
 
 p {
     font-size: 1.125rem; /* 18px */
+    color: var(--Blue-500);
+}
+
+.pricing-info-container {
+    color: var(--Cyan-400);
+}
+
+.deadline-container span {
+    color: var(--Blue-500);
+}
+
+.nft-preview-card-footer span {
+    color: var(--White);
 }
