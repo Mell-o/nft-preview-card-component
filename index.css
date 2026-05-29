@@ -23,9 +23,9 @@ article {
     background-color: var(--Blue-900);
     display: flex;
     flex-direction: column;
-    width: 375px;
+    width: 325px;
     border-radius: 0.875em; /* 14px */
-    padding: 2em;
+    padding: 1.5em; /* 32px */
 }
 
 figure {
@@ -40,6 +40,9 @@ figure img {
 
 h1 {
     color: var(--White);
+    font-weight: 500;
+    font-size: 1.563rem; /* 24px */
+    margin: 0;
 }
 
 p {
@@ -47,12 +50,27 @@ p {
     color: var(--Blue-500);
 }
 
+.offer-details-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .pricing-info-container {
     color: var(--Cyan-400);
 }
 
+.nft-preview-card-body p {
+    margin: 0;
+    font-weight: 200;
+}
+
 .deadline-container span {
     color: var(--Blue-500);
+}
+
+.nft-preview-card-footer {
+    display: flex;
+    align-items: center;
 }
 
 .nft-preview-card-footer span {
