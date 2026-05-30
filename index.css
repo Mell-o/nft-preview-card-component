@@ -58,6 +58,13 @@ p {
 
 .pricing-info-container {
     color: var(--Cyan-400);
+    gap: 0.35em;
+}
+
+.deadline-container, .pricing-info-container {
+    display: flex;
+    align-items: center;
+    gap: 0.35em; /* 5.6px */
 }
 
 .deadline-container span {
