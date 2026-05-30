@@ -31,6 +31,8 @@ article {
 figure {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 figure img {
@@ -58,10 +60,9 @@ p {
 
 .pricing-info-container {
     color: var(--Cyan-400);
-    gap: 0.35em;
 }
 
-.deadline-container, .pricing-info-container {
+.deadline-container, .pricing-info-container, .nft-preview-card-footer {
     display: flex;
     align-items: center;
     gap: 0.35em; /* 5.6px */
@@ -72,8 +73,7 @@ p {
 }
 
 .nft-preview-card-footer {
-    display: flex;
-    align-items: center;
+    gap: 1em; /* 16px */
 }
 
 .nft-preview-card-footer span {
