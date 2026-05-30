@@ -74,6 +74,7 @@ p {
 }
 
 .nft-preview-card-footer img {
-    border: 3px solid var(--White);
+    border: 1px solid var(--White);
     border-radius: 50%;
+    width: 32px;
 }
