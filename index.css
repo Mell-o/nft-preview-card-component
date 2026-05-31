@@ -51,16 +51,18 @@ p {
     font-size: 1.125rem; /* 18px */
     color: var(--Blue-500);
     font-weight: 200;
+    margin: 0;
 }
 
 .nft-preview-card-body {
     border-bottom: 1px solid var(--Blue-800);
+    margin: 0 0 0.938em 0; /* 15px */
+    padding: 0 0 0.938em 0; /* 15px */
 }
 
 .offer-details-container {
     display: flex;
     justify-content: space-between;
-    margin: 0 0 0.938em 0; /* 0.938 */
 }
 
 .pricing-info-container {
@@ -79,6 +81,11 @@ p {
 
 .nft-preview-card-footer {
     gap: 1em; /* 16px */
+    align-items: left;
+}
+
+.nft-preview-card-footer p {
+    font-size: 1rem; /* 16px */
 }
 
 .nft-preview-card-footer span {
