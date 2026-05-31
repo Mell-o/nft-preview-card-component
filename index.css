@@ -29,7 +29,7 @@ article {
 }
 
 figure {
-    margin: 0;
+    margin: 0 0 1.5em 0; /* 15px */
     padding: 0;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@ h1 {
     color: var(--White);
     font-weight: 500;
     font-size: 1.438rem; /* 23px */
-    margin: 0;
+    margin: 0 0 0.652em 0; /* 15px */
 }
 
 p {
@@ -62,6 +62,7 @@ p {
 
 .nft-preview-card-body p {
     font-size: 1rem; /* 16px */
+    margin: 0 0 0.938em 0; /* 15px */
     font-weight: 200;
 }
 
