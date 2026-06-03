@@ -23,7 +23,7 @@ article {
     background-color: var(--Blue-900);
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 280px;
     border-radius: 0.875em; /* 14px */
     padding: 1.5em; /* 32px */
 }
@@ -64,6 +64,7 @@ p {
     font-size: 1rem; /* 16px */
     margin: 0 0 0.938em 0; /* 15px */
     font-weight: 200;
+    line-height: 1.5;
 }
 
 .offer-details-container {
@@ -73,25 +74,29 @@ p {
 
 .pricing-info-container {
     color: var(--Cyan-400);
+    font-weight: 500;
 }
 
-.deadline-container, .pricing-info-container, .nft-preview-card-footer {
+.deadline-container, .pricing-info-container {
     display: flex;
     align-items: center;
-    gap: 0.35em; /* 5.6px */
+    gap: 0.375em; /* 6px */
 }
 
 .deadline-container span {
     color: var(--Blue-500);
+    font-weight: 300;
 }
 
 .nft-preview-card-footer {
+    display: flex;
+    justify-content: left;
     gap: 1em; /* 16px */
-    align-items: left;
+    align-items: center;
 }
 
 .nft-preview-card-footer p {
-    font-size: 1rem; /* 16px */
+    font-size: 0.969rem; /* 15.5px */
 }
 
 .nft-preview-card-footer span {
