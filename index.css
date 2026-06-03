@@ -2,6 +2,7 @@
     /* Primary */
     --Blue-500: hsl(215, 51%, 70%);
     --Cyan-400: hsl(178, 100%, 50%);
+    --Cyan-400-transparent: hsl(178, 100%, 50%, 0.5);
 
     /* Neutral */
     --Blue-950: hsl(217, 54%, 11%);
@@ -19,6 +20,16 @@ body {
     align-items: center;
 }
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--White);
+}
+
+a:hover {
+    color: var(--Cyan-400);
+}
+
 article {
     background-color: var(--Blue-900);
     display: flex;
@@ -29,15 +40,38 @@ article {
 }
 
 figure {
+    display: inline-block;
     margin: 0 0 1.5em 0; /* 15px */
     padding: 0;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.625em; /* 10px */
 }
 
-figure img {
+figure .main-image {
+    display: block;
+    height: auto;
     width: 100%;
-    border-radius: 0.625em; /* 10px */
+}
+
+figure .icon-view {
+    display: none;
+}
+
+figure a:hover .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--Cyan-400-transparent);
+}
+
+figure a:hover .icon-view {
+    display: block;
 }
 
 h1 {
@@ -97,10 +131,6 @@ p {
 
 .nft-preview-card-footer p {
     font-size: 0.969rem; /* 15.5px */
-}
-
-.nft-preview-card-footer span {
-    color: var(--White);
 }
 
 .nft-preview-card-footer img {
