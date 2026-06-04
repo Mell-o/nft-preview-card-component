@@ -54,10 +54,6 @@ figure .main-image {
     width: 100%;
 }
 
-figure .icon-view {
-    display: none;
-}
-
 figure a:hover .overlay {
     display: flex;
     justify-content: center;
@@ -68,6 +64,10 @@ figure a:hover .overlay {
     width: 100%;
     height: 100%;
     background-color: var(--Cyan-400-transparent);
+}
+
+figure .icon-view {
+    display: none;
 }
 
 figure a:hover .icon-view {
