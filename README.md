@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-flexbox-TWCLb8In0o)
 - [Live Site](https://nft-preview-card-component-mellow.netlify.app/)
 
 ## My process
