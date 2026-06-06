@@ -148,6 +148,10 @@ p {
     color: var(--Blue-500);
 }
 
+.attribution a {
+    text-decoration: underline;
+}
+
 @media (max-height: 570px) {
     body {
         height: 110vh;
