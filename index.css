@@ -40,6 +40,7 @@ article {
     width: 280px;
     border-radius: 0.875em; /* 14px */
     padding: 1.5em; /* 32px */
+    margin: 0 0 0.75em 0; /* 12px */
 }
 
 figure {
@@ -140,6 +141,11 @@ p {
     border: 1px solid var(--White);
     border-radius: 50%;
     width: 32px;
+}
+
+.attribution {
+    font-size: 0.75rem; /* 12px */
+    color: var(--Blue-500);
 }
 
 @media (max-height: 570px) {
